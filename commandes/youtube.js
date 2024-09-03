@@ -103,10 +103,10 @@ zokou({
 
       let InfoMess = {
         image: { url: videos[0].thumbnail },
-        caption: `*Gojou-md* song downloader📂\n\nVideo name : _${Element.title}_
+        caption: `*Cyberpunk-V1* song downloader📂\n\nVideo name : _${Element.title}_
 Time : _${Element.timestamp}_
 Url : _${Element.url}_
-_\n*Gojou-md* is downloading the file_\n\n`
+_\n*Cyberpunk-V1* is downloading the file_\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
