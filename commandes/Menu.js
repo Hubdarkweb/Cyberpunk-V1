@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭─────────────────☉
 │▫️╭─────────────☉
-│  │ *GOJOU-MD*
+│  │ *Cyberpunk-V1*
 │▫️│*BOT-OWNER* : ${s.OWNER_NAME}
 │▫️│*Date* : ${date}
 │▫️│*PREFIX* : ${s.PREFIXE}
@@ -42,12 +42,12 @@ const date = moment().format('DD/MM/YYYY');
 │▫️│*CMDs* : ${cm.length} 
 │▫️│*STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │▫️│*RUNNING ON* : ${os.platform()}
-│▫️│*THEME* : *Gojou-MD*
+│▫️│*THEME* : *Cyberpunk-V1*
 │▫️╰──────────────☉
 ╰──────────────────☉
 ╭───────────────☉
- ☉〘 Gojou-MD 〙☉
- ☉by David Cyril☉
+ ☉〘 Cyberpunk-V1 〙☉
+ ☉by TOpPLUG Cyberpunk☉
 ╰───────────────☉\n`;
     
 let menuMsg = `
@@ -55,7 +55,7 @@ let menuMsg = `
     *YOWAIMO*
 ╰─────────☉
 
- *⚡GOJOU-MD COMMAND LIST⚡*
+ *⚡Cyberpunk-V1 COMMAND LIST⚡*
 `;
 
     for (const cat in coms) {
@@ -71,10 +71,10 @@ let menuMsg = `
     menuMsg += `
             
 *———————————————————————————*
-|▫️Gojou-MD
+|▫️Cyberpunk-V1
 |▫️a Multi device whatsapp bot
-|▫️Created by _David Cyril_
-|▫️_Repo_ :https://github.com/DeeCeeXxx/Gojou-MD
+|▫️Created by TOpPLUG
+|▫️_Repo_ :https://github.com/Hubdarkweb/Cyberpunk-V1
 *———————————————————————————*
 `;
 
@@ -92,7 +92,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Gojou*, déveloper David Cyril" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Cyberpunk-V1*, déveloper TOpPLUG" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
