@@ -1,9 +1,9 @@
 {
-  "name":"Gojou-MD",
-  "description":"Deploy now your Gojou md ,Brought to you by the David Cyril.Make sure you fill all valuables to avoid bot from sleeping. ",
+  "name":"Cyberpunk-V1",
+  "description":"Deploy now your Cyberpunk-V1 ,Codded by TOpPLUG Cyberpunk.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/YKVlucn.jpeg",
-  "repository":"https://github.com/DeeCeeXxx/Gojou-MD",
+  "repository":"https://github.com/Hubdarkweb/Cyberpunk-V1",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Gojo MD",
+      "value":"Cyberpunk-V1",
       "required":false
 
     } ,
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "David Cyril"
+    "value": "TOpPLUG Cyberpunk"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '234')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '254')",
     "required":false,
-    "value": "2349066528353"
+    "value": "254112386921"
   },
     "WARN_COUNT":
   {
