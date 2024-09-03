@@ -32,7 +32,7 @@ const devinettes = [
   },
   {
     question: "I am the owner and creator of TKM bot and Manjiro-Sano-md,i also have a whatsapp channel. Who am I ?",
-    reponse: "Cod3Uchiha",
+    reponse: "TOpPLUG",
   },
   {
     question: "I fly without wings, I cry without eyes. Wherever I am, death always accompanies me. Who am I ?",
